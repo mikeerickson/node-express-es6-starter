@@ -1,43 +1,50 @@
 {
-    "name": "node-js-sample",
-    "version": "0.2.0",
-    "description": "A sample Node.js app using Express 4",
-    "main": "index.js",
-    "scripts": {
-        "start": "PORT=3000 nodemon server.js",
-        "test": "mocha --compilers js:babel-core/register"
-    },
-    "dependencies": {
-        "gulp-messenger": "0.22.1",
-        "twig": "0.9.5"
-    },
-    "engines": {
-        "node": "4.0.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/heroku/node-js-sample"
-    },
-    "keywords": [
-        "node",
-        "heroku",
-        "express"
+  "name": "node-express-es6-starter",
+  "version": "0.3.0",
+  "description": "A sample Node.js app using Express 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=3000 nodemon server.js",
+    "test": "mocha --compilers js:babel-core/register"
+  },
+  "dependencies": {
+    "gulp-messenger": "0.22.1",
+    "twig": "0.9.5"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeerickson/node-express-es6-starter.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
     ],
-    "babel": {
-        "presets": [
-            "es2015",
-            "stage-0"
-        ],
-        "ignore": [
-            "node_modules"
-        ]
-    },
-    "author": "Mike Erickson <codedungeon@mail.com>",
-    "license": "MIT",
-    "devDependencies": {
-        "babel-core": "6.14.0",
-        "chai": "3.5.0",
-        "eslint": "3.4.0",
-        "mocha": "3.0.2"
-    }
+    "ignore": [
+      "node_modules"
+    ]
+  },
+  "author": "Mike Erickson <codedungeon@mail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "6.14.0",
+    "chai": "3.5.0",
+    "eslint": "3.4.0",
+    "mocha": "3.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/mikeerickson/node-express-es6-starter/issues"
+  },
+  "homepage": "https://github.com/mikeerickson/node-express-es6-starter#readme",
+  "directories": {
+    "test": "test"
+  }
 }
