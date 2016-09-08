@@ -1,0 +1,40 @@
+.container {
+  text-align: center;
+}
+
+img {
+  width: 25%;
+  height: 25%;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  font-family: 'Helvetica Neue', sans-serif;
+  margin-bottom: 60px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #f5f5f5;
+  font-size: .8em;
+}
+
+footer .center {
+  text-align: center;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
