@@ -4,7 +4,9 @@
   "description": "A sample Node.js app using Express 4",
   "main": "index.js",
   "scripts": {
-    "start": "PORT=3000 nodemon server.js",
+    "eslint": "eslint \"./**/*.js\"",
+    "lint": "npm run lint",
+    "start": "nodemon --watch views --watch src --watch public -e js,twig,html,css server.js",
     "test": "mocha --compilers js:babel-core/register"
   },
   "dependencies": {

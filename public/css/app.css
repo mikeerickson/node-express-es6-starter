@@ -15,15 +15,18 @@ body {
   /* Margin bottom by footer height */
   font-family: 'Helvetica Neue', sans-serif;
   margin-bottom: 60px;
+  background: #151718;
+  color: white;
 }
 footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 40px;
+  height: 60px;
   background-color: #f5f5f5;
   font-size: .8em;
+  color: black;
 }
 
 footer .center {
