@@ -1,0 +1,134 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/mikee/.nvm/versions/node/v5.9.1/bin/node',
+1 verbose cli   '/Users/mikee/.nvm/versions/node/v5.9.1/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.5
+3 info using node@v5.9.1
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/mikee/Documents/Projects/dev/node/node-express-es6-starter',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/mikee/.npm/node-express-es6-starter/0.4.0/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/mikee/.npm correctMkdir not in flight; initializing
+10 info lifecycle node-express-es6-starter@0.4.0~prepublish: node-express-es6-starter@0.4.0
+11 silly lifecycle node-express-es6-starter@0.4.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/mikee/.npm/node-express-es6-starter/0.4.0/package.tgz',
+12 verbose tar pack   '/Users/mikee/Documents/Projects/dev/node/node-express-es6-starter' ]
+13 verbose tarball /Users/mikee/.npm/node-express-es6-starter/0.4.0/package.tgz
+14 verbose folder /Users/mikee/Documents/Projects/dev/node/node-express-es6-starter
+15 verbose addLocalTarball adding from inside cache /Users/mikee/.npm/node-express-es6-starter/0.4.0/package.tgz
+16 verbose correctMkdir /Users/mikee/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd node-express-es6-starter@0.4.0
+18 verbose afterAdd /Users/mikee/.npm/node-express-es6-starter/0.4.0/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/mikee/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/mikee/.npm/node-express-es6-starter/0.4.0/package/package.json written
+21 silly publish { name: 'node-express-es6-starter',
+21 silly publish   version: '0.4.0',
+21 silly publish   description: 'A sample Node.js app using Express 4',
+21 silly publish   main: 'index.js',
+21 silly publish   scripts:
+21 silly publish    { eslint: 'eslint "./**/*.js"',
+21 silly publish      lint: 'npm run lint',
+21 silly publish      'start:dev': 'nodemon --watch views --watch src --watch public -e js,twig,html,css server.js',
+21 silly publish      'start:dep': 'ENV=deployment node server.js',
+21 silly publish      start: 'npm run start:dev',
+21 silly publish      test: 'mocha --compilers js:babel-core/register',
+21 silly publish      todo: 'leasot ./src/**/*.js server.js --tags error,info || true' },
+21 silly publish   dependencies:
+21 silly publish    { 'babel-core': '6.14.0',
+21 silly publish      'babel-preset-es2015': '6.14.0',
+21 silly publish      'babel-preset-stage-0': '6.5.0',
+21 silly publish      express: '4.14.0',
+21 silly publish      'gulp-messenger': '0.22.1',
+21 silly publish      lodash: '4.15.0',
+21 silly publish      twig: '0.9.5' },
+21 silly publish   engines: { node: '4.0.0' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/mikeerickson/node-express-es6-starter.git' },
+21 silly publish   keywords: [ 'node', 'heroku', 'express' ],
+21 silly publish   babel: { presets: [ 'es2015', 'stage-0' ], ignore: [ 'node_modules' ] },
+21 silly publish   author: { name: 'Mike Erickson', email: 'codedungeon@mail.com' },
+21 silly publish   license: 'MIT',
+21 silly publish   devDependencies:
+21 silly publish    { chai: '3.5.0',
+21 silly publish      eslint: '3.4.0',
+21 silly publish      leasot: '4.0.1',
+21 silly publish      mocha: '3.0.2',
+21 silly publish      nodemon: '1.10.2',
+21 silly publish      'todo-webpack-plugin': '1.0.3' },
+21 silly publish   bugs: { url: 'https://github.com/mikeerickson/node-express-es6-starter/issues' },
+21 silly publish   homepage: 'https://github.com/mikeerickson/node-express-es6-starter#readme',
+21 silly publish   directories: { test: 'test' },
+21 silly publish   readme: '# Node Express ES6 Starter\n\nA barebones Node.js app using [Express 4](http://expressjs.com/).\n\n## Running Locally\n\nMake sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.\n\n```sh\ngit clone https://github.com/mikeerickson/node-express-es6-starter # or clone your own fork\ncd node-express-es6-starter\nnpm install\nnpm start\n```\n\nYour app should now be running on [localhost:3000](http://localhost:3000/).\n\n## Deploying to Heroku\n\n```\nheroku create\ngit push heroku master\nheroku open\n```\n\nAlternatively, you can deploy your own copy of the app using the web-based flow:\n\n[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)\n\n## Documentation\n\nFor more information about using Node.js on Heroku, see these Dev Center articles:\n\n- [10 Habits of a Happy Node Hacker](https://blog.heroku.com/archives/2014/3/11/node-habits)\n- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)\n- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)\n- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)\n- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: '2c9b3c01b7964e32ec5ddc767fde5e6ab8bb900c',
+21 silly publish   _id: 'node-express-es6-starter@0.4.0',
+21 silly publish   _shasum: 'e5c6fd51d79f375a387dcbf8d21b3e1d342b22c6',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name node-express-es6-starter
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'node-express-es6-starter',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'node-express-es6-starter',
+26 silly mapToRegistry   name: 'node-express-es6-starter',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/node-express-es6-starter
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /Users/mikee/.npm/node-express-es6-starter/0.4.0/package.tgz
+30 verbose request uri https://registry.npmjs.org/node-express-es6-starter
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 2:03:42 PM
+33 verbose request using bearer token for auth
+34 verbose request id f797f17f782263fb
+35 http request PUT https://registry.npmjs.org/node-express-es6-starter
+36 http 403 https://registry.npmjs.org/node-express-es6-starter
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '95',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Thu, 08 Sep 2016 21:03:43 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-lax8648-LAX',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1473368622.855735,VS0,VE166',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating /Users/mikee/.npm/registry.npmjs.org/node-express-es6-starter on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: "You cannot publish over the previously published version 0.4.0." : node-express-es6-starter
+40 verbose stack     at makeError (/Users/mikee/.nvm/versions/node/v5.9.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/Users/mikee/.nvm/versions/node/v5.9.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+40 verbose stack     at Request._callback (/Users/mikee/.nvm/versions/node/v5.9.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+40 verbose stack     at Request.self.callback (/Users/mikee/.nvm/versions/node/v5.9.1/lib/node_modules/npm/node_modules/request/request.js:200:22)
+40 verbose stack     at emitTwo (events.js:100:13)
+40 verbose stack     at Request.emit (events.js:185:7)
+40 verbose stack     at Request.<anonymous> (/Users/mikee/.nvm/versions/node/v5.9.1/lib/node_modules/npm/node_modules/request/request.js:1067:10)
+40 verbose stack     at emitOne (events.js:95:20)
+40 verbose stack     at Request.emit (events.js:182:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/Users/mikee/.nvm/versions/node/v5.9.1/lib/node_modules/npm/node_modules/request/request.js:988:12)
+41 verbose statusCode 403
+42 verbose pkgid node-express-es6-starter
+43 verbose cwd /Users/mikee/Documents/Projects/dev/node/node-express-es6-starter
+44 error Darwin 15.6.0
+45 error argv "/Users/mikee/.nvm/versions/node/v5.9.1/bin/node" "/Users/mikee/.nvm/versions/node/v5.9.1/bin/npm" "publish"
+46 error node v5.9.1
+47 error npm  v3.10.5
+48 error code E403
+49 error "You cannot publish over the previously published version 0.4.0." : node-express-es6-starter
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
