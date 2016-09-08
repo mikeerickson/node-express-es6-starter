@@ -12,7 +12,7 @@ var twig = Twig.twig;
 //     strict_variables: false
 // });
 
-app.set('port', (process.env.PORT || 5000))
+app.set('port', (process.env.PORT || 3000))
 app.use(express.static(__dirname + '/public'))
 
 // default route to index.html
